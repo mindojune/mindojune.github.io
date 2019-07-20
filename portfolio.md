@@ -14,7 +14,7 @@ The following is a list containing some of my work.
 
 
 #### Linguistics / Computational Linguistics
-- [Consonant-Glide Sequences and the Syllable Contact Asymmetryin Korean](https://github.com/mindojune/mindojune.github.io/blob/master/_data/ling85.pdf)
+- [Consonant-Glide Sequences and the Syllable Contact Asymmetry in Korean](https://github.com/mindojune/mindojune.github.io/blob/master/_data/ling85.pdf)
 - [Finite State Transducer for Korean in Apertium](https://github.com/mindojune/kor-transducer)
 
 
