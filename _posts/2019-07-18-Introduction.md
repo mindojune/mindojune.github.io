@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Introduction
-comments: true
 tags: 
   - start 
   - intro
