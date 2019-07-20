@@ -113,7 +113,7 @@
   @include inline-flex();
   @include justify-content(center);
   @include align-items(center);
-  border-radius: 50%;
+  //border-radius: 50%;
   @extend .button--md;
 }
 
