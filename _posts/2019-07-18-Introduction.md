@@ -16,4 +16,4 @@ I'm also planning to post my thoughts on the fields that I am interested in, whi
 Don't forget to check out [my portfolio](https://mindojune.github.io/portfolio.html).
 
 Feel free to contact me through email.
-You can also leave comments below individual posts using Disqus.
+You can also leave comments below individual posts.
