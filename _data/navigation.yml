@@ -7,7 +7,7 @@ header:
     url:        /about.html
   - titles:
       en:       Portfolio
-    url:        /portfolio.html
+    url:        /_posts/2019-07-18-Introduction.md
   - titles:
       en:       Curriculum Vitae
     url:        /cv.pdf
