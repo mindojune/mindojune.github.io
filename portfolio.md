@@ -4,6 +4,10 @@ title: "Portfolio"
 
 The following is a list containing some of my work.
 
+# TODO
+* Make a post for each work explaining the project and its contribution.
+* Make the code accessible.
+
 
 #### Artificial Intelligence / Machine Learning
 - [Insights from Attacking Interpretable Models: Style Transfer and Input Thresholding (Work with Haizhong Zheng, Junghwan Kim, and Jihun Lim)](https://github.com/mindojune/mindojune.github.io/blob/master/_data/eecs598_012_project.pdf)
