@@ -13,13 +13,13 @@ If you have questions, don't hesitate to shoot me an email or leave a comment be
 -->
 
 ### Artificial Intelligence / Machine Learning
-\\
+\ \
 #### Insights from Attacking Interpretable Models: Style Transfer and Input Thresholding (Work with Haizhong Zheng, Junghwan Kim, and Jihun Lim) 
 
 - [Paper](https://github.com/mindojune/mindojune.github.io/blob/master/_data/eecs598_012_project.pdf)
 
 - [Blog Post](https://mindojune.github.io/2019/08/05/01ADV.html)
-\\
+\ \
 #### Using NEAT + ES to Play Games
 
 - [Paper](https://github.com/mindojune/mindojune.github.io/blob/master/_data/cs81.pdf)
