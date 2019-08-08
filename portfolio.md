@@ -10,7 +10,7 @@ The following is a list containing some of my work.
 * Make the code accessible.
 -->
 
-#### Artificial Intelligence / Machine Learning
+### Artificial Intelligence / Machine Learning
 - Insights from Attacking Interpretable Models: Style Transfer and Input Thresholding (Work with Haizhong Zheng, Junghwan Kim, and Jihun Lim) 
 
 [Paper](https://github.com/mindojune/mindojune.github.io/blob/master/_data/eecs598_012_project.pdf)
@@ -30,7 +30,7 @@ The following is a list containing some of my work.
 [Blog Post](https://mindojune.github.io/2019/08/05/03ML_HIV.html)
 
 
-#### Linguistics / Computational Linguistics
+### Linguistics / Computational Linguistics
 - Consonant-Glide Sequences and the Syllable Contact Asymmetry in Korean
 
 [Paper](https://github.com/mindojune/mindojune.github.io/blob/master/_data/ling85.pdf)
@@ -44,7 +44,7 @@ The following is a list containing some of my work.
 [Blog Post](https://mindojune.github.io/2019/08/05/05FST.html)
 
 
-#### Information Visualization
+### Information Visualization
 - #MAGA and #MeToo: A Tale of Two Hashtags, a Twitter Visualization (Work with Yea-Ree Chang and Kai Cui)
 
 [Visualization](https://cyearee.github.io/twitter_visualization/index.html)
@@ -52,7 +52,7 @@ The following is a list containing some of my work.
 [Blog Post](https://mindojune.github.io/2019/08/05/06VIZ.html)
 
 
-#### Other
+### Other
 - Adaptive Routing for DHTs (Work with Zheyuan Ryan Shi and Yu Jian Wu) 
 
 [Paper](https://github.com/mindojune/mindojune.github.io/blob/master/_data/cs87_project.pdf)
