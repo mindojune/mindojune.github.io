@@ -42,6 +42,7 @@ The following is a list containing some of my work.
 
 #### Other
 -  [Adaptive Routing for DHTs (Work with Zheyuan Ryan Shi and Yu Jian Wu)](https://github.com/mindojune/mindojune.github.io/blob/master/_data/cs87_project.pdf)
+
 [Blog Post](https://mindojune.github.io/2019/08/05/07DHT.html)
 <!---
 Should I include every work that's appropriate in length and quality, without considering its relevance?
