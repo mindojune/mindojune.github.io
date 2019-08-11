@@ -19,19 +19,19 @@ If you have questions, don't hesitate to shoot me an email or leave a comment be
 
 - [Paper](https://mindojune.github.io/upload/eecs598_012_project.pdf)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/01ADV.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/01ADV.html) (Coming Soon)
 &nbsp;
 #### Using NEAT + ES to Play Games
 
 - [Paper](https://mindojune.github.io/upload/cs81.pdf)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/02NEAT+ES.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/02NEAT+ES.html) (Coming Soon)
 &nbsp;
 #### A Machine Learning Approach to Predicting HIV Progression (Work with Yang Yi) 
 
 - [Paper](https://mindojune.github.io/upload/cs68.pdf)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/03ML_HIV.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/03ML_HIV.html) (Coming Soon)
 
 &nbsp;
 
@@ -42,13 +42,13 @@ If you have questions, don't hesitate to shoot me an email or leave a comment be
 
 - [Paper](https://mindojune.github.io/upload/ling85.pdf)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/04PHON.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/04PHON.html) (Coming Soon)
 &nbsp;
 #### Finite State Transducer for Korean in Apertium
 
 - [Code](https://gckor-transducer)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/05FST.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/05FST.html) (Coming Soon)
 
 &nbsp;
 
@@ -58,7 +58,7 @@ If you have questions, don't hesitate to shoot me an email or leave a comment be
 
 - [Visualization](https://cyearee.github.io/twitter_visualization/index.html)
 - [Code](https://gctwitter_visualization)
-- [Blog Post](https://mindojune.github.io/2019/08/05/06VIZ.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/06VIZ.html) (Coming Soon)
 
 &nbsp;
 ### Other
@@ -67,7 +67,7 @@ If you have questions, don't hesitate to shoot me an email or leave a comment be
 
 - [Paper](https://mindojune.github.io/upload/cs87_project.pdf)
 
-- [Blog Post](https://mindojune.github.io/2019/08/05/07DHT.html)
+- [Blog Post](https://mindojune.github.io/2019/08/05/07DHT.html) (Coming Soon)
 <!---
 Should I include every work that's appropriate in length and quality, without considering its relevance?
 -->
