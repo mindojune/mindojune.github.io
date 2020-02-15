@@ -24,9 +24,9 @@ $text-color-theme-light-d: #000;
 $text-color-theme-light:   #000;
 $text-color-theme-light-l: #000;
 
-$text-color-theme-dark-d:  rgba(#000, .8);
-$text-color-theme-dark:    rgba(#000, .7);
-$text-color-theme-dark-l:  rgba(#000, .5);
+$text-color-theme-dark-d:  rgba(#000, 1); # .8);
+$text-color-theme-dark:    rgba(#000, 1); # .7);
+$text-color-theme-dark-l:  rgba(#000, 1); # .5);
 
 $text-color-d:     $text-color-theme-dark-d;
 $text-color:       $text-color-theme-dark;
