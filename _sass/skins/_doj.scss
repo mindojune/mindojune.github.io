@@ -20,13 +20,13 @@ $main-color-theme-dark:  rgba(#fff, 1.0); //.8);
 $background-color: #1e1e7b; //#ffffff; //#edfcf3; //#e1e7fc; //#41b3a3; //#ffffff;
 
 // text colors
-$text-color-theme-light-d: #000;
-$text-color-theme-light:   #000;
-$text-color-theme-light-l: #000;
+$text-color-theme-light-d: #ffffff; //#000;
+$text-color-theme-light:   #ffffff; //#000;
+$text-color-theme-light-l: #ffffff; //#000;
 
-$text-color-theme-dark-d:  rgba(#000, 1.0); // .8);
-$text-color-theme-dark:    rgba(#000, 1.0); // .7);
-$text-color-theme-dark-l:  rgba(#000, 1.0); // .5);
+$text-color-theme-dark-d:  rgba(#ffffff, 1.0); //rgba(#000, 1.0); // .8);
+$text-color-theme-dark:    rgba(#ffffff, 1.0); //rgba(#000, 1.0); // .7);
+$text-color-theme-dark-l:  rgba(#ffffff, 1.0); //rgba(#000, 1.0); // .5);
 
 $text-color-d:     $text-color-theme-dark-d;
 $text-color:       $text-color-theme-dark;
