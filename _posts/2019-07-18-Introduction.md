@@ -3,7 +3,6 @@ layout: article
 title: Introduction
 categories: intro, start
 comment: true
-key: a0000
 ---
 
 Hi, I am Do June. 
