@@ -1,9 +1,7 @@
 ---
 layout: article
 title: Introduction
-tags: 
-  - start 
-  - intro
+categories: intro, start
 comment: true
 key: a0000
 ---
