@@ -67,4 +67,5 @@ plugins:
 header_pages:
   - about.md
   - portfolio.md
+  - https://mindojune.github.io/cv.pdf
   - cv.pdf
