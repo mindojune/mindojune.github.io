@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: Introduction
 categories: intro, start
 comment: true
