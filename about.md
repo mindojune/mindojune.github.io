@@ -12,3 +12,5 @@ My interests include:
 - Philosophy of Language
 
 You can contact me at : <a href="wordandflesh@gmail.com">wordandflesh@gmail.com</a> or <a href="dojmin@umich.edu">dojmin@umich.edu</a>
+
+My CV: <a href="https://mindojune.github.io/cv.pdf">here</a>
