@@ -13,7 +13,8 @@ disqus:
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  skin: dark
+  #skin: dark
+  skin: solarized-dark
   date_format: "%b %-d, %Y" #"%Y %b %-d" #
 
   # generate social links in footer
