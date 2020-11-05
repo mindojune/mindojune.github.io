@@ -3,9 +3,14 @@ title: "About"
 ---
 
 Hello, I am Do June Min, currently a first year PhD student at the University of Michigan studying computer science. 
-My research focus is in natural language processing and computational linguistics.
+My research focus is in natural language processing and computational linguistics. 
 I graduated with a bachelor's degree in computer science and mathematics from Swarthmore College. 
 After that, I earned a master's degree in computer science here at the University of Michigan.
+
+My current research focus is understanding medical conversations and mental health counseling interactions using NLP.
+Although we have some idea as to what constitutes "good" communication strategy when it comes to care provider-patient
+or therapist-client communication, it is not easy to empirically verify
+As part of this effort, I am studying how NLP can be applied to characterize counseling behaviors.
 
 Some other versions of my first name are: Dojune, Do-june, DJ, and the Doj. 
 
