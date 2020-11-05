@@ -67,6 +67,7 @@ plugins:
  - jemoji
 
 header_pages:
+  - index.md
   - about.md
   - portfolio.md
   - cv.md
