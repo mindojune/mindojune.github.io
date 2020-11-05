@@ -2,7 +2,9 @@
 title: "About"
 ---
 
-Hello, I am Do June Min, currently a second year MS student at the University of Michigan studying Computer Science. 
+Hello, I am Do June Min, currently a first year PhD student at the University of Michigan studying computer science. 
+I graduated with a Bachelor's degree in computer science and mathematics from Swarthmore College. 
+After that, I earned a MSc in computer science here at the University of Michigan.
 
 Some other versions of my first name are: Dojune, Do-june, DJ, and the Doj. 
 
