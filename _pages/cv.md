@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-CV
-<embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url=https://mindojune.github.io/files/cv.pdf" width="500" height="375">
+<iframe src="https://docs.google.com/gview?url=https://mindojune.github.io/files/cv.pdf &embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
+
 
