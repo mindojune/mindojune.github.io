@@ -1,6 +1,13 @@
 ---
+permalink: /
 title: "About"
+excerpt: "About tihs Blog"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
+
 
 Hello, I am Do June Min, currently a first year PhD student at the University of Michigan studying computer science. 
 My research focus is in natural language processing and computational linguistics. 
