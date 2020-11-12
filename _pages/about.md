@@ -35,4 +35,4 @@ My interests include:
 
 You can contact me at : <a href="dojmin@umich.edu">dojmin@umich.edu</a>
 
-My CV: <a href="https://mindojune.github.io/cv.pdf">here</a>
+My CV: <a href="https://mindojune.github.io/files/cv.pdf">here</a>
