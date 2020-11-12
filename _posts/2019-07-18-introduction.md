@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Introduction
 categories: intro, start
+excerpt: Introduction to My BLog
 comment: true
 ---
 
