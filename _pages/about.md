@@ -33,6 +33,6 @@ My interests include:
 - Linguistics / Computational Linguistics
 - Philosophy of Language
 
-You can contact me at : <a href="dojmin@umich.edu">dojmin@umich.edu</a>
+You can contact me at : [dojmin@umich.edu](dojmin@umich.edu)
 
-My CV: <a href="https://mindojune.github.io/files/cv.pdf">here</a>
+My CV: [Link](https://mindojune.github.io/files/cv.pdf)
