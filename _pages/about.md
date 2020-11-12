@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About tihs Blog"
+excerpt: "About this Blog"
 author_profile: true
 redirect_from: 
   - /about/
