@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hello, I am Do June Min, currently a first year PhD student at the University of Michigan studying computer science. 
+Hello, I am Do June Min, currently a second year PhD student at the University of Michigan studying computer science. 
 My research focus is in natural language processing and computational linguistics. 
 I graduated with a bachelor's degree in computer science and mathematics from Swarthmore College. 
 After that, I earned a master's degree in computer science here at the University of Michigan.
