@@ -26,13 +26,6 @@ with the patients.
 How can we quantify this behavior?
 This is the question I am working on right now.
 
-Some other versions of my first name are: Dojune, Do-june, DJ, and the Doj. 
-
-My interests include:
-- Artificial Intelligence / Machine Learning
-- Linguistics / Computational Linguistics
-- Philosophy of Language
-
 You can contact me at : [dojmin@umich.edu](dojmin@umich.edu)
 
 My CV: [Link](https://mindojune.github.io/files/cv.pdf)
