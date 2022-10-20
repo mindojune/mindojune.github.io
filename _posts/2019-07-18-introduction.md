@@ -1,7 +1,7 @@
 ---
 title: Introduction
 categories: intro, start
-excerpt: Introduction to My BLog
+excerpt: Intro to my blog
 comment: true
 ---
 
