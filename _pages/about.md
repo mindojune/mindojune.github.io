@@ -14,6 +14,7 @@ My research focus is in natural language processing and computational linguistic
 I graduated with a bachelor's degree in computer science and mathematics from Swarthmore College. 
 After that, I earned a master's degree in computer science here at the University of Michigan.
 
+<!---
 My current research focus is understanding medical conversations and mental health counseling interactions using NLP.
 Although we have some idea as to what constitutes "good" communication strategy when it comes to care provider-patient
 or therapist-client communication, it is not easy to empirically verify and compare different frameworks and guidelines.
@@ -25,6 +26,7 @@ The basic idea behind this is that it is important for counselors to find the ba
 with the patients.
 How can we quantify this behavior?
 This is the question I am working on right now.
+-->
 
 You can contact me at : [dojmin@umich.edu](dojmin@umich.edu)
 
