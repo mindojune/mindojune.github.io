@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 
-Hello, I am Do June Min, currently a fourth year PhD student at the University of Michigan studying computer science. 
-My research focus is in natural language processing and computational linguistics. 
-I graduated with a bachelor's degree in computer science and mathematics from Swarthmore College. 
+Hello, I am Do June Min, a fifth-year PhD student at the University of Michigan studying computer science. 
+My research focus is on natural language processing and computational linguistics. 
+I graduated from Swarthmore College with a bachelor's degree in computer science and mathematics. 
 After that, I earned a master's degree in computer science here at the University of Michigan.
 
 <!---
@@ -28,6 +28,6 @@ How can we quantify this behavior?
 This is the question I am working on right now.
 -->
 
-You can contact me at : [dojmin@umich.edu](dojmin@umich.edu)
+You can contact me at [dojmin@umich.edu](dojmin@umich.edu)
 
 My CV: [Link](https://mindojune.github.io/files/cv.pdf)
