@@ -20,4 +20,5 @@ In addition to my work in NLP for conversations, I am also interested in improvi
 You can contact me at [dojmin@umich.edu](dojmin@umich.edu)
 
 My CV: [Link](https://mindojune.github.io/files/cv.pdf)
+
 My LinkedIn: [Link](https://www.linkedin.com/in/do-june-min-a11033190/)
