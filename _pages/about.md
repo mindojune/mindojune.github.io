@@ -9,25 +9,15 @@ redirect_from:
 ---
 
 
-Hello, I am Do June Min, a fifth-year PhD student at the University of Michigan studying computer science. 
-My research focus is on natural language processing and computational linguistics. 
-I graduated from Swarthmore College with a bachelor's degree in computer science and mathematics. 
-After that, I earned a master's degree in computer science here at the University of Michigan.
+Hello, I’m Do June Min, a fifth-year PhD candidate in Computer Science at the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics.
 
-<!---
-My current research focus is understanding medical conversations and mental health counseling interactions using NLP.
-Although we have some idea as to what constitutes "good" communication strategy when it comes to care provider-patient
-or therapist-client communication, it is not easy to empirically verify and compare different frameworks and guidelines.
-My goal is to understand how participants interact in medical or counseling conversations and how this affects the outcome, 
-in terms of clinical or therapy outcome or patient satisfaction.
-This will lead to development of counseling strategies based on insights and observations learned from past data.
-As part of this effort, I am studying how NLP can be applied to quantify the goal-orientedness of counseling strategy.
-The basic idea behind this is that it is important for counselors to find the balance between progressing the therapy and sympathizing/affirming
-with the patients.
-How can we quantify this behavior?
-This is the question I am working on right now.
--->
+I completed my bachelor’s degree in Computer Science and Mathematics at Swarthmore College, followed by a master’s degree in Computer Science at the University of Michigan.
+
+My research focuses on understanding medical and mental health conversations using NLP techniques. While there are existing guidelines on effective communication strategies for care providers and therapists, empirically validating these frameworks remains a challenge. My goal is to analyze how participants engage in medical or counseling dialogues and how these interactions influence clinical outcomes and patient satisfaction.
+
+In addition to my work in NLP for conversations, I am also interested in improving human-machine interaction interfaces. This includes my work on Automatic Speech Recognition (ASR), where I evaluated ASR systems, developed adaptive endpointing strategies, and conducted research with AWS on spoken content retrieval. I’ve also explored Task-Oriented Dialogue (TOD) systems, focusing on workflow-guided approaches to improve user interactions with machines.
 
 You can contact me at [dojmin@umich.edu](dojmin@umich.edu)
 
 My CV: [Link](https://mindojune.github.io/files/cv.pdf)
+My LinkedIn: [Link](https://www.linkedin.com/in/do-june-min-a11033190/)
