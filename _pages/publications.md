@@ -52,11 +52,11 @@ Oana Ignat, Zhijing Jin, Artem Abzaliev, Laura Biester, Santiago Castro, **Do Ju
 *ICASSP 2023 - IEEE International Conference on Acoustics, Speech and Signal Processing*  
 [DOI: 10.1109/ICASSP49357.2023.10097142](https://doi.org/10.1109/ICASSP49357.2023.10097142)  
 
-
 ### Workflow-Guided Response Generation for Task-Oriented Dialogue  
 **Do June Min**, Paloma Sodhi, Ramya Ramakrishnan  
 *arXiv*  
 [ArXiv Link](https://arxiv.org/abs/2311.08300)  
+
 ---
 
 ## 2022
