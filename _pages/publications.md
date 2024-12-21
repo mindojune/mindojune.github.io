@@ -25,7 +25,7 @@ redirect_from: /publications/
 
 
 ### **Has It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models**  
-Oana Ignat, Zhijing Jin, Artem Abzaliev, Laura Biester, Santiago Castro, **Do June Min**, et al.  
+Oana Ignat, Zhijing Jin, Artem Abzaliev, Laura Biester, Santiago Castro, Naihao Deng, Xinyi Gao, Aylin Ece Gunal, Jacky He, Ashkan Kazemi, Muhammad Khalifa, Namho Koh, Andrew Lee, Siyang Liu, *Do June Min*, Shinka Mori, Joan C. Nwatu, Veronica Perez-Rosas, Siqi Shen, Zekun Wang, Winston Wu, Rada Mihalcea.  
 *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)*  
 [ACL Anthology Link](https://aclanthology.org/2024.lrec-main.708/)  
 
