@@ -1,5 +1,5 @@
 ---
-layout: defaukt
+layout: default
 title: Publications
 permalink: /publications/
 redirect_from: /publications/
