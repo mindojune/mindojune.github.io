@@ -6,8 +6,6 @@ author_profile: true
 redirect_from: /publications/
 ---
 
-# Publications
-
 ## 2025
 
 ### Speech Retrieval-Augmented Generation without Automatic Speech Recognition  
