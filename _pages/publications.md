@@ -10,8 +10,6 @@ redirect_from: /publications/
 ### **Speech Retrieval-Augmented Generation without Automatic Speech Recognition**  
 **Do June Min**, Karel Mundnich, Andy Lapastora, Erfan Soltanmohammadi, Srikanth Ronanki, Kyu Han  
 *Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*  
-[DOI: 10.1109/ICASSP49357.2023.10097142](https://doi.org/10.1109/ICASSP49357.2023.10097142)  
-[ArXiv Link](https://arxiv.org/abs/2311.08300)  
 
 ---
 
