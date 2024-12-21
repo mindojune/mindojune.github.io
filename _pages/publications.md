@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: archive
 title: Publications
 permalink: /pub/
+author_profile: true
 redirect_from: /publications/
 ---
 
