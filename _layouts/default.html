@@ -4,36 +4,51 @@ layout: compress
 
 {% include base_path %}
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-    <!--     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:500" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
-    <link href="//fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  {% if site.favicon %}
+  <link rel="icon" href="{{ site.favicon | relative_url }}">
+  {% endif %}
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+        <div class="nav-links">
+          <a href="{{ '/research' | relative_url }}">Research</a>
+          <a href="{{ '/publications' | relative_url }}">Publications</a>
+          <a href="{{ '/teaching' | relative_url }}">Teaching</a>
+          <a href="{{ '/cv' | relative_url }}">CV</a>
+          <a href="{{ '/contact' | relative_url }}">Contact</a>
+        </div>
+      </nav>
     </div>
+  </header>
 
-    {% include scripts.html %}
+  <main class="container">
+    {{ content }}
+  </main>
 
-  </body>
+  <footer>
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      {% if site.social_links %}
+      <div class="social-links">
+        {% for link in site.social_links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </footer>
+</body>
 </html>
