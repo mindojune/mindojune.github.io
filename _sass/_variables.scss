@@ -60,12 +60,12 @@ $soft-green                 : #e8f5e9;
 $dark-green                 : #2a9134;
 
 /* Background colors */
-$body-color                 : #f7f9f7;  /* Very light sage tint */
-$background-color           : #f4f7f4;  /* Light sage background */
-$code-background-color      : #edf3ed;  /* Slightly darker sage for code */
+$body-color                 : #edf3f0;  /* Light mint-sage background */
+$background-color           : #e5ede9;  /* Slightly darker mint-sage */
+$code-background-color      : #dde8e3;  /* Darker mint-sage for code */
 $code-background-color-dark : mix(#000, $code-background-color, 15%);
 $text-color                 : $dark-gray;
-$border-color               : #e1e8e1;  /* Sage-tinted border */
+$border-color               : #d4e0db;  /* Harmonious border color */
 
 $primary-color              : $mint-green;
 $success-color              : #2ecc71;
