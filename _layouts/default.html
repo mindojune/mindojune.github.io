@@ -16,6 +16,10 @@ layout: compress
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
+      html {
+        background-color: #e5ede9;
+      }
+
       .author__avatar img {
         border-radius: 50%;
         object-fit: cover;
@@ -37,9 +41,31 @@ layout: compress
         font-feature-settings: "kern" 1, "liga" 1;
       }
 
+      .initial-content, 
+      .page__footer,
+      .page__meta,
+      .page__share,
+      .pagination,
+      .pagination--pager,
+      .search-content {
+        background-color: #e5ede9;
+      }
+
+      .page__footer {
+        margin-top: 2em;
+        color: #2c3338;
+        background-color: #edf3f0;
+        border-top: 1px solid #d4e0db;
+      }
+
+      .page__footer footer {
+        background-color: #edf3f0;
+      }
+
       .page__content {
         font-size: 1.1em;
         line-height: 1.75;
+        background-color: #e5ede9;
       }
 
       /* Typography system */
@@ -71,6 +97,12 @@ layout: compress
       .masthead {
         background-color: #edf3f0;
         border-bottom: 1px solid #d4e0db;
+        -webkit-animation: none;
+        animation: none;
+      }
+
+      .greedy-nav {
+        background: #edf3f0;
       }
 
       .masthead__menu-item {
@@ -105,6 +137,16 @@ layout: compress
 
       .sidebar {
         font-family: "Space Grotesk", sans-serif;
+        background: #edf3f0;
+        border-right: 1px solid #d4e0db;
+      }
+
+      .nav__list {
+        background: #edf3f0;
+      }
+
+      .nav__items {
+        background: #edf3f0;
       }
 
       .author__name {
@@ -127,6 +169,31 @@ layout: compress
         border-left: 3px solid #3eb489;
         padding-left: 1.5em;
         margin-left: 0;
+        background: #edf3f0;
+        padding: 1em 1.5em;
+        border-radius: 4px;
+      }
+
+      /* Fix any remaining white backgrounds */
+      .page__hero,
+      .page__hero-image,
+      .page__hero-caption,
+      .breadcrumbs,
+      .toc,
+      .pagination--pager,
+      .search-content__inner-wrap {
+        background-color: #e5ede9;
+      }
+
+      /* Style notice boxes */
+      .notice,
+      .notice--primary,
+      .notice--info,
+      .notice--warning,
+      .notice--success,
+      .notice--danger {
+        background-color: #edf3f0;
+        border-radius: 4px;
       }
     </style>
   </head>
