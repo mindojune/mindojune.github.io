@@ -9,18 +9,41 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-    <!--     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:500" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
-    <link href="//fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Modern, minimal fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charter:wght@400;700&display=swap" rel="stylesheet">
     <style>
       .author__avatar img {
         border-radius: 50%;
         object-fit: cover;
+        max-width: 175px;
+        border: 3px solid #3eb489;
+        padding: 3px;
+        background: white;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .author__avatar img:hover {
+        transform: scale(1.02);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      body {
+        background-color: #fcfcfc;
+      }
+
+      .page__content {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+
+      code {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.9em;
       }
     </style>
   </head>

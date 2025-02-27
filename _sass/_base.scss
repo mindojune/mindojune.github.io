@@ -5,6 +5,9 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -13,7 +16,9 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.6;
+  background-color: $background-color;
+  text-rendering: optimizeLegibility;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -22,10 +27,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  margin: 2.5em 0 0.5em;
+  line-height: 1.3;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
+  color: $darker-gray;
+  letter-spacing: -0.01em;
 }
 
 h1 {
@@ -112,13 +119,19 @@ blockquote {
 /* links */
 
 a {
-  &:focus {
-    @extend %tab-focus;
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+  &:hover {
+    color: $link-color-hover;
+    border-bottom-color: currentColor;
   }
 
-  &:hover,
-  &:active {
-    outline: 0;
+  &:focus {
+    outline: 3px solid rgba($link-color, 0.2);
+    outline-offset: 2px;
   }
 }
 
@@ -126,10 +139,16 @@ a {
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+  font-size: 0.9em;
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  padding: 1em;
+  background: $code-background-color;
+  border-radius: $border-radius;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 p > code,
@@ -137,17 +156,14 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
-  font-size: $type-size-6;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
   background: $code-background-color;
-  border: 1px solid $lighter-gray;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  color: $dark-gray;
 
   &:before, &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: none;
   }
 }
 
@@ -196,13 +212,18 @@ figure {
 
   img {
     width: 100%;
-    border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
 
   > a {
     display: block;
+    
+    &:hover img {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
   }
 
   &.half {
@@ -254,13 +275,29 @@ figcaption {
   }
 }
 
+/* Profile image specific styling */
+.author__avatar {
+  img {
+    max-width: 175px;
+    border-radius: 50%;
+    border: 3px solid $mint-green;
+    padding: 3px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
 
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
   overflow: hidden;
 }
-
 
 /*
    Navigation lists
