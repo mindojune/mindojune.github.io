@@ -16,7 +16,7 @@ layout: compress
     <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
-      html {
+      html, body, div, section, article, aside, header, footer, nav, main {
         background-color: #e5ede9;
       }
 
@@ -94,15 +94,16 @@ layout: compress
         letter-spacing: -0.02em;
       }
 
-      .masthead {
-        background-color: #edf3f0;
-        border-bottom: 1px solid #d4e0db;
-        -webkit-animation: none;
-        animation: none;
-      }
-
-      .greedy-nav {
-        background: #edf3f0;
+      .masthead, 
+      .masthead__inner-wrap,
+      .greedy-nav,
+      .greedy-nav .visible-links,
+      .greedy-nav .hidden-links,
+      .nav__list .nav__items,
+      .nav__list .nav__items .nav__sub-title,
+      .breadcrumbs,
+      .breadcrumbs ol {
+        background-color: #edf3f0 !important;
       }
 
       .masthead__menu-item {
@@ -135,10 +136,13 @@ layout: compress
         line-height: 1.6;
       }
 
-      .sidebar {
-        font-family: "Space Grotesk", sans-serif;
-        background: #edf3f0;
-        border-right: 1px solid #d4e0db;
+      .sidebar,
+      .sidebar *,
+      .author__avatar,
+      .author__content,
+      .author__urls-wrapper,
+      .wide .sidebar__right {
+        background-color: #edf3f0 !important;
       }
 
       .nav__list {
@@ -197,7 +201,7 @@ layout: compress
       }
 
       /* Author section fixes */
-      .author__urls-wrapper {
+      .author__urls {
         background-color: #e5ede9;
       }
 
@@ -236,6 +240,33 @@ layout: compress
       }
 
       .grid__item .archive__item {
+        background-color: #e5ede9;
+      }
+
+      /* Main content area */
+      .page__content,
+      .page__content *:not(code):not(pre),
+      .page__inner-wrap,
+      .archive,
+      .archive__item,
+      .archive__item-teaser,
+      .archive__item-body,
+      .archive__subtitle {
+        background-color: #e5ede9;
+      }
+
+      /* Footer specific */
+      .page__footer,
+      .page__footer-follow,
+      .page__footer-copyright {
+        background-color: #edf3f0 !important;
+      }
+
+      /* Utility classes that might add white backgrounds */
+      [class*="__inner-wrap"],
+      [class*="wrapper"],
+      [class*="inner"],
+      [class*="container"] {
         background-color: #e5ede9;
       }
     </style>
