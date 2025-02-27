@@ -24,7 +24,7 @@ layout: compress
         border-radius: 50%;
         object-fit: cover;
         max-width: 175px;
-        border: 3px solid #3eb489;
+        border: 3px solid #3eb489; 
         padding: 3px;
         background: #e5ede9;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -268,6 +268,53 @@ layout: compress
       [class*="inner"],
       [class*="container"] {
         background-color: #e5ede9;
+      }
+
+      /* AUTHOR BOX NUCLEAR FIX */
+      .sidebar__right .author__avatar,
+      .sidebar__right .author__content,
+      .sidebar__right .author__name,
+      .sidebar__right .author__bio,
+      .author__urls-wrapper,
+      .author__urls,
+      .sidebar__right *,
+      .author__urls-wrapper *,
+      .author__urls *,
+      .author__content *,
+      div[itemprop="author"],
+      div[itemprop="author"] *,
+      .wide .sidebar__right,
+      .sidebar .author__name,
+      .author__bio p {
+        background-color: #e5ede9 !important;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Remove any box backgrounds */
+      .sidebar__right .author__urls-wrapper {
+        background: none !important;
+      }
+
+      /* Ensure no padding creates lighter areas */
+      .author__content {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      .author__bio {
+        margin-top: 0.5em !important;
+      }
+
+      .author__avatar img {
+        border-radius: 50%;
+        object-fit: cover;
+        max-width: 175px;
+        border: 3px solid #3eb489;
+        padding: 3px;
+        background: #e5ede9 !important;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
       }
     </style>
   </head>
