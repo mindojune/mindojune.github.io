@@ -13,25 +13,25 @@ $paragraph-indent           : false;
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "IBM Plex Serif", Georgia, Times, serif;
-$sans-serif                 : "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+$serif                      : "Newsreader", Georgia, Times, serif;
+$sans-serif                 : "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
 $sans-serif_header          : $sans-serif;
 $monospace                  : "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : $sans-serif;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia                    : $serif;
+$times                      : $serif;
+$bodoni                     : $serif;
+$calisto                    : $serif;
+$garamond                   : $serif;
 
-$global-font-family         : $sans-serif;
+$global-font-family         : $serif;
 $header-font-family         : $sans-serif_header;
-$caption-font-family        : $serif;
+$caption-font-family        : $sans-serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
