@@ -12,9 +12,9 @@ layout: compress
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Modern, minimal fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Charter:wght@400;700&display=swap" rel="stylesheet">
     <style>
       .author__avatar img {
         border-radius: 50%;
@@ -33,7 +33,8 @@ layout: compress
       }
 
       body {
-        background-color: #fcfcfc;
+        background-color: #f4f7f4;
+        font-feature-settings: "kern" 1, "liga" 1;
       }
 
       .page__content {
@@ -41,9 +42,25 @@ layout: compress
         line-height: 1.6;
       }
 
+      .page__content p {
+        font-family: "Source Serif 4", Georgia, serif;
+      }
+
       code {
         font-family: 'JetBrains Mono', monospace;
         font-size: 0.9em;
+        background: #edf3ed;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+
+      .masthead {
+        background-color: #f7f9f7;
+        border-bottom: 1px solid #e1e8e1;
       }
     </style>
   </head>

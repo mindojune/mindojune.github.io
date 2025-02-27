@@ -13,8 +13,8 @@ $paragraph-indent           : false;
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Charter", Georgia, Times, serif;
-$sans-serif                 : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+$serif                      : "Source Serif 4", "Charter", Georgia, Times, serif;
+$sans-serif                 : "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
 $sans-serif_header          : $sans-serif;
 $monospace                  : "JetBrains Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
 
@@ -59,12 +59,13 @@ $mint-green                 : #3eb489;
 $soft-green                 : #e8f5e9;
 $dark-green                 : #2a9134;
 
-$body-color                 : #ffffff;
-$background-color           : #fcfcfc;
-$code-background-color      : $soft-green;
-$code-background-color-dark : mix(#000, $soft-green, 15%);
+/* Background colors */
+$body-color                 : #f7f9f7;  /* Very light sage tint */
+$background-color           : #f4f7f4;  /* Light sage background */
+$code-background-color      : #edf3ed;  /* Slightly darker sage for code */
+$code-background-color-dark : mix(#000, $code-background-color, 15%);
 $text-color                 : $dark-gray;
-$border-color               : #e1e4e8;
+$border-color               : #e1e8e1;  /* Sage-tinted border */
 
 $primary-color              : $mint-green;
 $success-color              : #2ecc71;
