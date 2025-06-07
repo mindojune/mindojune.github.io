@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 
-Hello, I’m Do June Min, a fifth-year PhD candidate in Computer Science at the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics.
+Hello, I’m Do June Min, a PhD graduate in Computer Science from the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics. I’ll be joining AWS in California as an Applied Scientist in July 2025.
 
-I completed my bachelor’s degree in Computer Science and Mathematics at Swarthmore College, followed by a master’s degree in Computer Science at the University of Michigan.
+I completed my bachelor’s degree in Computer Science and Mathematics at Swarthmore College and earned both my master’s and PhD in Computer Science at the University of Michigan.
 
-My research focuses on understanding medical and mental health conversations using NLP techniques. While there are existing guidelines on effective communication strategies for care providers and therapists, empirically validating these frameworks remains a challenge. My goal is to analyze how participants engage in medical or counseling dialogues and how these interactions influence clinical outcomes and patient satisfaction.
+My research focuses on understanding medical and mental health conversations using NLP techniques. I aim to improve communication in healthcare settings by developing models that handle the complexity of real-world interactions, support care providers in meeting multiple conversational goals, and offer practical, interpretable insights for training and evaluation.
 
-In addition to my work in NLP for conversations, I am also interested in improving human-machine interaction interfaces. This includes my work on Automatic Speech Recognition (ASR), where I evaluated ASR systems, developed adaptive endpointing strategies, and conducted research with AWS on spoken content retrieval. I’ve also explored Task-Oriented Dialogue (TOD) systems, focusing on workflow-guided approaches to improve user interactions with machines.
+Beyond healthcare communication, I’m also interested in improving human-machine interaction. My work in Automatic Speech Recognition (ASR) includes evaluating system performance, developing adaptive endpointing strategies, and collaborating with AWS on spoken content retrieval. I’ve also worked on Task-Oriented Dialogue (TOD) systems, exploring workflow-guided approaches and reinforcement learning to enhance usability and align system behavior with user needs.
 
 You can contact me at [dojmin@umich.edu](dojmin@umich.edu)
 
