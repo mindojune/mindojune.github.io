@@ -7,6 +7,11 @@ redirect_from: /publications/
 
 ## 2025
 
+### **Speech-Integrated Modeling for Behavioral Coding in Counseling**  
+**Do June Min**, Verónica Pérez-Rosas, Kenneth Resnicow, Rada Mihammcea  
+*Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025)*  
+
+
 ### **Speech Retrieval-Augmented Generation without Automatic Speech Recognition**  
 **Do June Min**, Karel Mundnich, Andy Lapastora, Erfan Soltanmohammadi, Srikanth Ronanki, Kyu Han  
 *Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)*  
