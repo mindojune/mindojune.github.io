@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hello, I’m Do June Min, a PhD graduate in Computer Science from the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics. I’ll be joining AWS in California as an Applied Scientist in July 2025.
+Hello, I'm Do June Min, a PhD graduate in Computer Science from the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics. I currently work at AWS in California as an Applied Scientist, having joined in July 2025.
 
 I completed my bachelor’s degree in Computer Science and Mathematics at Swarthmore College and earned both my master’s and PhD in Computer Science at the University of Michigan.
 
