@@ -8,7 +8,7 @@ redirect_from: /publications/
 ## 2025
 
 ### **Speech-Integrated Modeling for Behavioral Coding in Counseling**  
-**Do June Min**, Verónica Pérez-Rosas, Kenneth Resnicow, Rada Mihammcea  
+**Do June Min**, Verónica Pérez-Rosas, Kenneth Resnicow, Rada Mihalcea  
 *Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025)*  
 
 
