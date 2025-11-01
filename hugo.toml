@@ -1,0 +1,115 @@
+baseURL = "https://mindojune.github.io"
+languageCode = "en-us"
+title = "Do June Min"
+theme = "terminal"
+
+# Terminal theme specific configuration
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
+  # Provide a string as a prefix for the last update date. By default, it looks like "2020-xx-xx [Updated: 2020-xx-xx]" ::
+  # updatedDatePrefix = "Updated"
+
+  # whether to show a page's estimated reading time
+  readingTime = true # default
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  Toc = false # default
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  TocTitle = "Table of Contents" # default
+
+  # Author information
+  owner = "Do June Min"
+  subtitle = "NLP & Speech Processing Researcher"
+  location = "Ann Arbor"
+  employer = "University of Michigan"
+  github = "mindojune"
+  LinkedIn = "https://www.linkedin.com/in/do-june-min-a11033190/"
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Do June Min"
+    subtitle = "NLP & Speech Processing Researcher"
+    owner = "Do June Min"
+    keywords = "nlp, speech processing, machine learning, research"
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Do June Min"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "publications"
+        name = "Publications"
+        url = "/publications"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/cv"
+        weight = 4
+
+# Enable syntax highlighting
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+
+# Enable Git info for last modified dates  
+enableGitInfo = true
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"

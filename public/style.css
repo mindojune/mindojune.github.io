@@ -1,0 +1,215 @@
+/* Fira Code: https://github.com/tonsky/FiraCode */
+@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  --background: #4479a2;
+  --foreground: #81df68;
+  --accent: #bcacd7;
+  --radius: 0;
+  --font-size: 1rem;
+  --line-height: 1.54em;
+}
+
+body {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+     "Ubuntu Mono",
+    monospace;
+  font-size: var(--font-size);
+  font-weight: 400;
+  line-height: var(--line-height);
+  background-color: var(--background);
+  color: var(--foreground);
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: contextual;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Override specific code styling */
+code,
+kbd {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    "Ubuntu Mono",
+    monospace !important;
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+}
+
+kbd {
+  border-top: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-left: 1px solid var(--accent);
+  border-right: 1px solid var(--accent);
+  border-bottom: 4px solid var(--accent);
+  border-radius: 4px;
+}
+
+pre {
+  background: color-mix(in srgb, var(--foreground) 5%, transparent) !important;
+  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--foreground) 25%, transparent);
+}
+
+pre code {
+  background: none !important;
+  color: inherit;
+  border: none;
+}
+
+/* Main container with sidebar layout */
+.main-container {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 220px;
+  min-width: 220px;
+  height: fit-content;
+}
+
+/* Author profile styling */
+.author__avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  min-height: 160px; /* Ensure consistent height for centering */
+}
+
+.author__avatar-image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  transition: all 0.3s ease;
+}
+
+.author__avatar-image:hover {
+  border-color: var(--foreground);
+  transform: scale(1.05);
+}
+
+.author__content {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.author__name {
+  color: var(--foreground);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.author__bio {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.author__urls-wrapper {
+  margin-top: 1rem;
+}
+
+.author__urls {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.author__urls li {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.author__urls a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.author__urls a:hover {
+  color: var(--foreground);
+}
+
+/* Content area adjustment */
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Responsive sidebar */
+@media (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .sidebar {
+    width: 100%;
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: color-mix(in srgb, var(--foreground) 5%, transparent);
+    border: 1px solid color-mix(in srgb, var(--foreground) 15%, transparent);
+    border-radius: 8px;
+  }
+  
+  .author__avatar {
+    margin-bottom: 0;
+    flex-shrink: 0;
+    min-height: auto; /* Reset min-height for mobile layout */
+  }
+  
+  .author__avatar-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .author__content {
+    text-align: left;
+    margin-bottom: 0;
+    flex: 1;
+  }
+  
+  .author__urls-wrapper {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .author__avatar-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .author__content {
+    text-align: center;
+  }
+  
+  .author__name {
+    font-size: 1.2rem;
+  }
+}

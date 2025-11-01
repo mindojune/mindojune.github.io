@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Do June Min</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Do June Min</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hello, I&amp;rsquo;m Do June Min, a PhD graduate in Computer Science from the University of Michigan, specializing in Natural Language Processing (NLP) and Computational Linguistics. I currently work at AWS in California as an Applied Scientist, having joined in July 2025.&lt;/p&gt;&#xA;&lt;p&gt;I completed my bachelor&amp;rsquo;s degree in Computer Science and Mathematics at Swarthmore College and earned both my master&amp;rsquo;s and PhD in Computer Science at the University of Michigan.&lt;/p&gt;&#xA;&lt;p&gt;My research focuses on understanding medical and mental health conversations using NLP techniques. I aim to improve communication in healthcare settings by developing models that handle the complexity of real-world interactions, support care providers in meeting multiple conversational goals, and offer practical, interpretable insights for training and evaluation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/cv.pdf&#34;&gt;Download CV (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/portfolio/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>&lt;p&gt;The following is a list containing some of my work.&#xA;I&amp;rsquo;m working on writing a short expository blog post for each project listed here.&#xA;If you have questions, don&amp;rsquo;t hesitate to shoot me an email or leave a comment below the project post!&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h3 id=&#34;artificial-intelligence--machine-learning&#34;&gt;Artificial Intelligence / Machine Learning&lt;/h3&gt;&#xA;&lt;h4 id=&#34;insights-from-attacking-interpretable-models-style-transfer-and-input-thresholding-work-with-haizhong-zheng-junghwan-kim-and-jihun-lim&#34;&gt;Insights from Attacking Interpretable Models: Style Transfer and Input Thresholding (Work with Haizhong Zheng, Junghwan Kim, and Jihun Lim)&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/files/eecs598_012_project.pdf&#34;&gt;Paper&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Blog Post (Coming Soon)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;&#xA;&lt;h3 id=&#34;speech-integrated-modeling-for-behavioral-coding-in-counseling&#34;&gt;&lt;strong&gt;Speech-Integrated Modeling for Behavioral Coding in Counseling&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Do June Min&lt;/strong&gt;, Verónica Pérez-Rosas, Kenneth Resnicow, Rada Mihalcea&lt;br&gt;&#xA;&lt;em&gt;Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL 2025)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;speech-retrieval-augmented-generation-without-automatic-speech-recognition&#34;&gt;&lt;strong&gt;Speech Retrieval-Augmented Generation without Automatic Speech Recognition&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Do June Min&lt;/strong&gt;, Karel Mundnich, Andy Lapastora, Erfan Soltanmohammadi, Srikanth Ronanki, Kyu Han&lt;br&gt;&#xA;&lt;em&gt;Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;&#xA;&lt;h3 id=&#34;evaluating-language-models-for-assessing-counselor-reflections&#34;&gt;&lt;strong&gt;Evaluating Language Models for Assessing Counselor Reflections&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Do June Min&lt;/strong&gt;, Verónica Pérez-Rosas, Kenneth Resnicow, Rada Mihalcea&lt;br&gt;&#xA;&lt;em&gt;ACM Transactions on Computing for Healthcare (Special Issue on Large Language Models, Conversational Systems, and Generative AI in Health)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/posts/2019-07-18-introduction/</link>
+      <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2019-07-18-introduction/</guid>
+      <description>&lt;p&gt;Hi, I am Do June.&lt;/p&gt;&#xA;&lt;p&gt;This is the first post for my blog, which will feature articles presenting and explaining some of the works that I did, either for school or independently.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m also planning to post my thoughts on the fields that I am interested in, which you can find &lt;a href=&#34;http://localhost:1313/about/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to check out &lt;a href=&#34;http://localhost:1313/portfolio/&#34;&gt;my portfolio&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through email.&#xA;You can also leave comments below individual posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
