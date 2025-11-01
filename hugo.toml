@@ -113,3 +113,8 @@ enableGitInfo = true
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+# Cache configuration
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
