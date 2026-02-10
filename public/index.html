@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.155.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Do June Min</title>
   
@@ -105,6 +105,15 @@
 
 
 
+  <script>
+    
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
 
@@ -116,9 +125,28 @@
     <div class="header__logo">
       <a href="/">
   <div class="logo">
-    Do June Min
+    <span class="logo-typing">Do June Min</span>
   </div>
 </a>
+
+    </div>
+    <div class="header__right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+  <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"/>
+    <line x1="12" y1="1" x2="12" y2="3"/>
+    <line x1="12" y1="21" x2="12" y2="23"/>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+    <line x1="1" y1="12" x2="3" y2="12"/>
+    <line x1="21" y1="12" x2="23" y2="12"/>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+  <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+</button>
 
     </div>
     
@@ -220,66 +248,48 @@
     
     <div class="content">
       
-  
-  <div class="posts">
-    
-    
+<div class="landing">
+  <section class="landing__hero">
+    <div class="landing__terminal">
+      <div class="landing__prompt">$ whoami</div>
+      <p class="landing__tagline">NLP & Speech Processing Researcher @ University of Michigan</p>
+    </div>
+  </section>
 
-    
-    
-      
-    
-    
+  <section class="landing__sections">
+    <a href="/about" class="landing__card">
+      <h3 class="landing__card-title">
+        <span>></span> About
+      </h3>
+      <p class="landing__card-desc">Learn about my background, research interests, and journey in AI.</p>
+    </a>
 
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:1313/posts/2019-07-18-introduction/">Introduction</a>
-        </h2>
+    <a href="/portfolio" class="landing__card">
+      <h3 class="landing__card-title">
+        <span>></span> Portfolio
+      </h3>
+      <p class="landing__card-desc">Projects and work in natural language processing and speech.</p>
+    </a>
 
-        <div class="post-meta"><time class="post-date">2019-07-18</time></div>
+    <a href="/publications" class="landing__card">
+      <h3 class="landing__card-title">
+        <span>></span> Publications
+      </h3>
+      <p class="landing__card-desc">Research papers and academic contributions.</p>
+    </a>
 
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:1313/tags/intro/">intro</a>&nbsp;
-            
-            #<a href="http://localhost:1313/tags/start/">start</a>&nbsp;
-            
-          </span>
-        
+    <a href="/cv" class="landing__card">
+      <h3 class="landing__card-title">
+        <span>></span> CV
+      </h3>
+      <p class="landing__card-desc">Full curriculum vitae and professional experience.</p>
+    </a>
+  </section>
 
-        
-
-
-        <div class="post-content">
-          
-            <p>Hi, I am Do June.</p>
-<p>This is the first post for my blog, which will feature articles presenting and explaining some of the works that I did, either for school or independently.</p>
-<p>I&rsquo;m also planning to post my thoughts on the fields that I am interested in, which you can find <a href="/about/">here</a>.</p>
-<p>Don&rsquo;t forget to check out <a href="/portfolio/">my portfolio</a>.</p>
-<p>Feel free to contact me through email.
-You can also leave comments below individual posts.</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/posts/2019-07-18-introduction/">[]</a>
-          </div>
-        
-      </article>
-    
-
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
-  </div>
+  <footer class="landing__footer">
+    <p>$ echo "Welcome to my terminal" _</p>
+  </footer>
 </div>
-
-  </div>
 
     </div>
   </div>
@@ -289,7 +299,7 @@ You can also leave comments below individual posts.</p>
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
       <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
@@ -310,5 +320,30 @@ You can also leave comments below individual posts.</p>
   
 </div>
 
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.getElementById('theme-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        const html = document.documentElement;
+        const currentTheme = html.getAttribute('data-theme');
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        html.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    }
+
+    
+    const logoTyping = document.querySelector('.logo-typing');
+    if (logoTyping) {
+      logoTyping.addEventListener('animationend', function(e) {
+        if (e.animationName === 'typing') {
+          logoTyping.classList.add('animation-complete');
+        }
+      });
+    }
+  });
+</script>
 </body>
 </html>
