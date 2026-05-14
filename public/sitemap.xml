@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://mindojune.github.io/about/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cv/</loc>
+    <loc>https://mindojune.github.io/cv/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mindojune.github.io/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://mindojune.github.io/portfolio/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://mindojune.github.io/publications/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mindojune.github.io/categories/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/intro/</loc>
+    <loc>https://mindojune.github.io/categories/intro/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/intro/</loc>
+    <loc>https://mindojune.github.io/tags/intro/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2019-07-18-introduction/</loc>
+    <loc>https://mindojune.github.io/posts/2019-07-18-introduction/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://mindojune.github.io/posts/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/start/</loc>
+    <loc>https://mindojune.github.io/categories/start/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/start/</loc>
+    <loc>https://mindojune.github.io/tags/start/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mindojune.github.io/tags/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
   </url>
 </urlset>

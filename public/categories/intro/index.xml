@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intro on Do June Min</title>
-    <link>http://localhost:1313/categories/intro/</link>
+    <link>https://mindojune.github.io/categories/intro/</link>
     <description>Recent content in Intro on Do June Min</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jul 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/intro/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mindojune.github.io/categories/intro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/posts/2019-07-18-introduction/</link>
+      <link>https://mindojune.github.io/posts/2019-07-18-introduction/</link>
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2019-07-18-introduction/</guid>
-      <description>&lt;p&gt;Hi, I am Do June.&lt;/p&gt;&#xA;&lt;p&gt;This is the first post for my blog, which will feature articles presenting and explaining some of the works that I did, either for school or independently.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m also planning to post my thoughts on the fields that I am interested in, which you can find &lt;a href=&#34;http://localhost:1313/about/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to check out &lt;a href=&#34;http://localhost:1313/portfolio/&#34;&gt;my portfolio&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through email.&#xA;You can also leave comments below individual posts.&lt;/p&gt;</description>
+      <guid>https://mindojune.github.io/posts/2019-07-18-introduction/</guid>
+      <description>&lt;p&gt;Hi, I am Do June.&lt;/p&gt;&#xA;&lt;p&gt;This is the first post for my blog, which will feature articles presenting and explaining some of the works that I did, either for school or independently.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m also planning to post my thoughts on the fields that I am interested in, which you can find &lt;a href=&#34;https://mindojune.github.io/about/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t forget to check out &lt;a href=&#34;https://mindojune.github.io/portfolio/&#34;&gt;my portfolio&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to contact me through email.&#xA;You can also leave comments below individual posts.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

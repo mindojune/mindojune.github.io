@@ -4,7 +4,7 @@ This is the source code for my personal academic website, built with [Hugo](http
 
 ## About
 
-I'm Do June Min, an NLP & Speech Processing Researcher at the University of Michigan. This website showcases my research, publications, and professional background.
+I'm Do June Min, an Applied Scientist at AWS specializing in NLP and Speech Processing. This website showcases my research, publications, and professional background.
 
 ## Website Structure
 
